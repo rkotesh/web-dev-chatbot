@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Web Development Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Web Development Chatbot</h1>
+    <div id="chatBox" class="chatBox"></div>
+   
+    <div  class="input-container">
+        <input type="text" id="questionInput" placeholder="Type your message..." />
+        <button class="send-btn">
+          <svg viewBox="0 0 24 24">
+            <path d="M2 21l21-9L2 3v7l15 2-15 2v7z"/>
+          </svg>
+        </button>
+      </div>
+    
+    <button id="micButton" onclick="startListening()">🎤 Start Speaking</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
